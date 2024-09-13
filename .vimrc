@@ -14,9 +14,7 @@ endif
 
 call plug#begin('~/.vim/plugged')
 
-
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-
+Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'npm ci'}
 
 call plug#end()
 
